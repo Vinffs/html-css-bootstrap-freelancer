@@ -1,0 +1,24 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --my-primary-color: #2c3e50;
+  --my-primary-color-gradient: #3a546d;
+  --my-secondary-color: #1abc9c;
+  --my-first-card: #ba4b63;
+  --my-second-card: #1ea4b6;
+  --my-third-card: #140f0f;
+  --my-fourth-card: #1c83c1;
+  --my-fifth-card: #0e38b5;
+  --my-sixth-card: #ccb2a3;
+}
+.my-bg-primary {
+  background-color: var(--my-primary-color);
+}
+.my-bg-secondary {
+  background-color: var(--my-secondary-color);
+}
+.my-bg-secondary-gradient {
+  background-color: var(--my-primary-color-gradient);
+}

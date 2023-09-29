@@ -40,3 +40,6 @@ body {
 .my-sixth-card {
   background-color: var(--my-sixth-card);
 }
+.my-green-text {
+  color: var(--my-secondary-color);
+}

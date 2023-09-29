@@ -22,3 +22,21 @@ body {
 .my-bg-secondary-gradient {
   background-color: var(--my-primary-color-gradient);
 }
+.my-first-card {
+  background-color: var(--my-first-card);
+}
+.my-second-card {
+  background-color: var(--my-second-card);
+}
+.my-third-card {
+  background-color: var(--my-third-card);
+}
+.my-fourth-card {
+  background-color: var(--my-fourth-card);
+}
+.my-fifth-card {
+  background-color: var(--my-fifth-card);
+}
+.my-sixth-card {
+  background-color: var(--my-sixth-card);
+}

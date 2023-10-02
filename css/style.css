@@ -23,7 +23,7 @@
 .my-star::after {
   content: "";
   display: block;
-  width: 15%;
+  width: 20%;
   background-color: white;
   height: 5px;
   margin: 0 10px;
@@ -41,4 +41,15 @@
 .my-btn-download:hover {
   background: var(--bs-white);
   color: var(--bs-danger);
+}
+#name,
+#email,
+#number,
+#text-area {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid var(--bs-gray);
+  font-size: 1.1em;
+  font-weight: 600;
+  line-height: 2em;
 }

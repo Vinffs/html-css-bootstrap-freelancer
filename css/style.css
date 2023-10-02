@@ -1,0 +1,46 @@
+.my-img-container {
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+.my-img-container:hover:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #20c9967b;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+}
+
+.my-star::before,
+.my-star::after {
+  content: "";
+  display: block;
+  width: 15%;
+  background-color: white;
+  height: 5px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+
+.my-star.black::before,
+.my-star.black::after {
+  background-color: black;
+}
+
+.my-btn-download {
+  color: var(--bs-white);
+}
+.my-btn-download:hover {
+  background: var(--bs-white);
+  color: var(--bs-danger);
+}
